@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Moody Food</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+</head>
+<body class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+          	<img class="logo" src="images/header/moody_food_logo_small.png">
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="upload.html">Upload</a></li>
+            <li><a href="sources.html">Sources</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+</nav>
+	<main class="container-fluid">
+			<h1>Upload your own recipe!</h1>
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email Address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+			  	<label for="exampleInputText">Recipe Name</label>
+			  	<input type="text" class="form-control" placeholder="Recipe Name">
+			  </div>	
+			  <div class="form-group">
+			    <label for="exampleInputFile">Recipe Photo</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Please upload jpg or png format. File size no larger than 5MB.</p>
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">Mood Photo (optional)</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Please upload jpg or png format. File size no larger than 5MB.</p>
+			  </div>
+			  <div class="form-group">
+			  	<label for="exampleTextArea">Please paste your recipe in the box below.</label>
+			  	<textarea class="form-control" rows="10"></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+			
+	</main>
+	
+	<footer class="container-fluid">
+		<p>&copy; 2015 Moody Food. All Rights Reserved.</p>
+			<a href="https://www.facebook.com/" target="_blank"><img class= "sociallogos-large" src="images/social_icons/50px/facebook.png"></a>
+			<a href="https://instagram.com/" target="_blank"><img class= "sociallogos-large" src="images/social_icons/50px/instagram.png"></a>
+			<a href="https://www.pinterest.com/" target="_blank"><img class= "sociallogos-large" src="images/social_icons/50px/pinterest.png"></a>
+			<img class= "sociallogos-large" src="images/social_icons/50px/email.png">
+
+			<a href="https://www.facebook.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/facebook_small.png"></a>
+			<a href="https://instagram.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/instagram_small.png"></a>
+			<a href="https://www.pinterest.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/pinterest_small.png"></a>
+			<img class= "sociallogos-small" src="images/social_icons/25px/email_small.png">
+	</footer>
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+</body>
+</html>
