@@ -1,7 +1,7 @@
 body {
 	padding-top: 70px;
-	background-color: rgb(180,180,180);
-	color: white;
+	background-color: white;
+	color: black;
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;    
 }
@@ -9,7 +9,6 @@ h1 {
 	text-align: center;
     font-family: 'Lobster Two', cursive;
     font-style: italic;
-    color: white;
     padding-bottom: 40px;
 }
 nav {
@@ -39,7 +38,6 @@ footer {
 footer p {
 	font-size: 14px;
 	display: block;
-	color: white;
 }
 .sociallogos-small{
 	padding: 10px 10px 0px 10px;

@@ -1,0 +1,15 @@
+body {
+	background-color: rgb(153, 204, 255);
+}
+.navbar {
+	background-color: rgb(102, 153, 255);
+}
+.navbar, .navbar-inverse .navbar-toggle {
+	border-color: rgb(255, 133, 0);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: rgb(255, 133, 0);
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: rgb(255, 173, 0);
+}

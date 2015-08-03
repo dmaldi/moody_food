@@ -7,9 +7,6 @@
  *
  * Released under the MIT license - http://opensource.org/licenses/MIT
  */
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
 
 ;(function($){
 
@@ -26,11 +23,11 @@ $(document).ready(function(){
 		easing: null,
 		slideMargin: 0,
 		startSlide: 0,
-		randomStart: (true / false),
-		captions: (true / false),
+		randomStart: false,
+		captions: false,
 		ticker: false,
 		tickerHover: false,
-		adaptiveHeight: (true / false),
+		adaptiveHeight: false,
 		adaptiveHeightSpeed: 500,
 		video: false,
 		useCSS: true,
