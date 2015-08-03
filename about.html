@@ -15,28 +15,26 @@
 	<link href="css/jquery.bxslider.css" rel="stylesheet" />
 </head>
 <body class="container-fluid">
-<nav class="navbar navbar-inverse navbar-fixed-top">
-	<div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-          	<img class="logo" src="images/header/moody_food_logo_small.png">
-          </a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="about.html">About</a></li>
-            <li><a href="upload.html">Upload</a></li>
-            <li><a href="sources.html">Sources</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-</nav>
+<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-container">
+		<div class="container-fluid" id="entire-nav">
+       	 	<div class="navbar-header">
+          		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            		<span class="sr-only">Toggle navigation</span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+            		<span class="icon-bar"></span>
+          		</button>
+          		<a class="navbar-brand" href="index.html"><img class="logo" src="images/header/moody_food_logo_small.png"></a>
+        	</div>
+        	<div id="navbar" class="collapse navbar-collapse">
+          		<ul class="nav navbar-nav">
+            		<li class="active"><a href="about.html">About</a></li>
+            		<li><a href="upload.html">Upload</a></li>
+            		<li><a href="sources.html">Sources</a></li>
+          		</ul>
+        	</div><!--/.nav-collapse -->
+   		</div>
+	</nav>
 	<main class="container-fluid">
 			<h1>About Moody Food</h1>
 			<p>Moody Food was created to give recipe recommendations based on ingredients that are scientifically proven to alter mood.</p>

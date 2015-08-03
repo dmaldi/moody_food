@@ -3,5 +3,23 @@ body {
 	color: white;
 }
 .navbar {
+	border:none;
+}
+.navbar, .navbar-inverse .navbar-toggle {
+	border-color: rgb(130, 130, 130);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: rgb(130, 130, 130);
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: rgb(180,180,180);
+}
+.navbar-header {
+	background-color: rgb(150, 150, 150);
+	border-bottom: 1px solid;
+	border-color: rgb(130, 130, 130);
+}
+#navbar {
 	background-color: rgb(150, 150, 150);
 }
+

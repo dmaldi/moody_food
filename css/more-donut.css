@@ -1,8 +1,9 @@
 body {
 	background-color: rgb(255, 173, 0);
+	color: white;
 }
 .navbar {
-	background-color: rgb(255, 153, 0);
+	border:none;
 }
 .navbar, .navbar-inverse .navbar-toggle {
 	border-color: rgb(255, 133, 0);
@@ -13,4 +14,11 @@ body {
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
 	background-color: rgb(255, 173, 0);
 }
-
+.navbar-header {
+	background-color: rgb(255, 153, 0);
+	border-bottom: 1px solid;
+	border-color: rgb(255, 133, 0);
+}
+#navbar {
+	background-color: rgb(255, 153, 0);
+}
