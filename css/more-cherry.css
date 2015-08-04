@@ -1,16 +1,32 @@
 body {
-	background-color: rgb(230, 0, 0);
+	background-color: rgb(255, 153, 204);
 	color: white;
 }
 .navbar {
-	background-color: rgb(207, 0, 0);
+	border:none;
 }
 .navbar, .navbar-inverse .navbar-toggle {
-	border-color: rgb(255, 133, 0);
+	border-color: rgb(255, 113, 204);
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: rgb(255, 133, 0);
+	border-color: rgb(255, 113, 204);
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: rgb(255, 173, 0);
+	background-color: rgb(255, 153, 204);
+}
+.navbar-header {
+	background-color: rgb(255, 133, 204);
+	border-bottom: 1px solid;
+	border-color: rgb(255, 113, 204);
+}
+#navbar {
+	background-color: rgb(255, 133, 204);
+}
+
+
+@media (min-width: 768px) {
+#navbar-container {
+	background: rgb(255, 133, 204);
+	border-bottom: 1px solid;
+	border-color: rgb(255, 113, 204);
 }

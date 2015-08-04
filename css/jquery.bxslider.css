@@ -24,6 +24,7 @@
 .bx-wrapper img {
 	max-width: 100%;
 	display: block;
+	margin: auto;
 }
 
 /** THEME
@@ -126,7 +127,7 @@
 	top: 50%;
 	margin-top: -16px;
 	outline: 0;
-	width: 50px;
+	width: 42px;
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;

@@ -3,7 +3,7 @@ body {
 	background-color: white;
 	color: black;
 	font-family: 'Oswald', sans-serif;
-	font-size: 18px;    
+	font-size: 18px;
 }
 h1 {
 	text-align: center;
@@ -17,13 +17,17 @@ nav {
 	font-weight: 700;
 }
 .navbar-brand {
-	padding-top: 5px;
+	padding-top: 8px;
 	padding-bottom: 5px;
 }
 .quote {
-	font-size: 24px;
 	text-align: left;
 	font-style: italic;
+	font-size: 18px;
+	font-weight: 700;
+}
+footer.quote {
+	padding: 10px 0px;
 }
 label {
 	font-weight: 400;
@@ -41,9 +45,6 @@ footer p {
 }
 .sociallogos-small{
 	padding: 10px 10px 0px 10px;
-}
-.sociallogos-large {
-    display: none;
 }
 #navbar-container {
 	background:none;
@@ -66,13 +67,13 @@ footer p {
 }
 .sources a {
 	text-decoration: none;
-	color: rgb(71,71,70);
+	color: rgb(91,91,90);
 }
 .sources a:hover {
 	color: black;
 }
 .navbar-inverse .navbar-nav > li > a {
-	color: rgb(215,215,215);
+	color: rgb(220,220,220);
 }
 .navbar-inverse .navbar-nav > li > a:hover {	
 	font-style: normal;
@@ -82,4 +83,84 @@ footer p {
 .navbar-inverse .navbar-nav > .active > a:focus {
   background-color: #333;
 }
+.btn:hover {
+	background-color: #333;
+	color: white;
+}
+.sources {
+	list-style-type: square;
+}
+.bx-wrapper img {
+	max-width: 100%;
+	display: block;
+	margin: auto;
+}
+.alert-success {
+	background-color: black;
+	color: white;
+}
+
+
+@media (min-width: 768px) {
+
+	h1 {
+		padding-top: 50px;
+	}
+	.copy {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	blockquote {
+		margin: 0 80px;
+	}
+	.bx-wrapper {
+		display: none;
+	}
+	#navbar-container {
+		background: black;
+	}
+	footer p, .social {
+		margin-left: 80px;
+		margin-right: 80px;
+	}
+	footer p {
+		float: left;
+		display: inline-block;
+		vertical-align: baseline;
+		padding-top: 50px;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		font-size: 22px;
+		height: 50px;
+	}
+	.social {
+		float: right;
+		display: inline-block;
+		padding-top: 35px;
+	}
+	#row-1, #row-2 {
+		padding: 30px;
+	}
+	#row-1 img {
+		margin: auto;
+	}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	#row-1, #row-2 {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
 

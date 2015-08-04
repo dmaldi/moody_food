@@ -1,32 +1,32 @@
 body {
-	background-color: rgb(180,180,180);
+	background-color: rgb(240, 0, 0);
 	color: white;
 }
 .navbar {
 	border:none;
 }
 .navbar, .navbar-inverse .navbar-toggle {
-	border-color: rgb(130, 130, 130);
+	border-color: rgb(207, 0, 0);
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-	border-color: rgb(130, 130, 130);
+	border-color: rgb(207, 0, 0);
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-	background-color: rgb(180,180,180);
+	background-color: rgb(240, 0, 0);
 }
 .navbar-header {
-	background-color: rgb(150, 150, 150);
+	background-color: rgb(220, 0, 0);
 	border-bottom: 1px solid;
-	border-color: rgb(130, 130, 130);
+	border-color: rgb(207, 0, 0);
 }
 #navbar {
-	background-color: rgb(150, 150, 150);
+	background-color: rgb(220, 0, 0);
 }
 
 
 @media (min-width: 768px) {
 #navbar-container {
-	background: rgb(150, 150, 150);
+	background: rgb(220, 0, 0);
 	border-bottom: 1px solid;
-	border-color: rgb(130, 130, 130);
+	border-color: rgb(207, 0, 0);
 }

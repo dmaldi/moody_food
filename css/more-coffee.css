@@ -24,3 +24,11 @@ body {
 }
 
 
+@media (min-width: 768px) {
+#navbar-container {
+	background: rgb(102, 153, 255);
+	border-bottom: 1px solid;
+	border-color: rgb(51, 102, 255);
+}
+
+

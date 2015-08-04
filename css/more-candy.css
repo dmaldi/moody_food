@@ -22,3 +22,11 @@ body {
 #navbar {
 	background-color: rgb(51, 153, 51);
 }
+
+
+@media (min-width: 768px) {
+#navbar-container {
+	background: rgb(51, 153, 51);
+	border-bottom: 1px solid;
+	border-color: rgb(0, 102, 51);
+}
