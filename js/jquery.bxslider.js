@@ -8,7 +8,8 @@
  * Released under the MIT license - http://opensource.org/licenses/MIT
  */
 $(document).ready(function(){
-  $('.bxslider').bxSlider();
+  // $('.bxslider').bxSlider();
+  
 });
 
 ;(function($){
@@ -606,7 +607,7 @@ $(document).ready(function(){
 				}
 				// var linkContent = slider.settings.buildPager && $.isFunction(slider.settings.buildPager) ? slider.settings.buildPager(i) : i + 1;
 				// add the markup to the string
-				pagerHtml += '<div class="bx-pager-item"><a href="" data-slide-index="' + i + '" class="bx-pager-link">' + linkContent + '</a></div>';
+				pagerHtml += '<div class="bx-pager-item"><a href="" data-slide-index="' + i + '" class="bx-pager-link">' + linkContent + ' </a></div>';
 			};
 			// populate the pager element with pager links
 			slider.pagerEl.html(pagerHtml);

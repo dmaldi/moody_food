@@ -22,6 +22,14 @@ body {
 #navbar {
 	background-color: rgb(220, 0, 0);
 }
+#burger-image {
+	background-image: url("../images/more_pages/more_burger.png");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	overflow: hidden;
+	background-size: 100%;
+	/*background-position: 50%, 50%;*/
+}
 
 
 @media (min-width: 768px) {

@@ -106,20 +106,20 @@
 
 .bx-wrapper .bx-prev {
 	left: 10px;
-	background: url(images/controls.png) no-repeat 0 -32px;
+	background: url(images/controls.png) no-repeat -10px -32px;
 }
 
 .bx-wrapper .bx-next {
 	right: 10px;
-	background: url(images/controls.png) no-repeat -43px -32px;
+	background: url(images/controls.png) no-repeat -53px -32px;
 }
 
 .bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
+	background-position: -10px 0;
 }
 
 .bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	background-position: -53px 0;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -127,7 +127,7 @@
 	top: 50%;
 	margin-top: -16px;
 	outline: 0;
-	width: 42px;
+	width: 32px;
 	height: 32px;
 	text-indent: -9999px;
 	z-index: 9999;

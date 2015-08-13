@@ -22,6 +22,14 @@ body {
 #navbar {
 	background-color: rgb(51, 153, 51);
 }
+#candy-image {
+	background-image: url("../images/more_pages/more_candy.png");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	overflow: hidden;
+	background-size: 100%;
+	/*background-position: 50%, 50%;*/
+}
 
 
 @media (min-width: 768px) {

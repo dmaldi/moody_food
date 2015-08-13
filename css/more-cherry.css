@@ -22,6 +22,14 @@ body {
 #navbar {
 	background-color: rgb(255, 133, 204);
 }
+#cherry-image {
+	background-image: url("../images/more_pages/more_cherry.png");
+	background-repeat: no-repeat;
+	/*background-size: cover;*/
+	overflow: hidden;
+	background-size: 100%;
+	/*background-position: 50%, 50%;*/
+}
 
 
 @media (min-width: 768px) {
