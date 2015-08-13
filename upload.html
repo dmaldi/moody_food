@@ -37,7 +37,7 @@
 	<h1>Upload your own recipe!</h1>
 	<main class="container-fluid">
 			<div class="col-md-6 col-md-offset-3">
-					<form>
+					<form class="recipe-form" action="upload.html" method="post">
 						<div class="form-group">
 			  				<label for="exampleInputText">Your Name</label>
 			  				<input type="text" class="form-control" placeholder="Your Name">
@@ -59,10 +59,10 @@
 			  				<label for="exampleTextArea">Please paste your recipe in the box below.</label>
 			  				<textarea class="form-control" rows="10"></textarea>
 			  			</div>
-			  			<button type="submit" class="btn btn-default">Submit</button>
-			  			<!-- <div class="alert alert-success">
-    						<strong>Success! Your recipe has been submitted!</strong> 
-  						</div> -->
+			  			<button type="submit" class="btn btn-default"id="submit-button">Submit</button>
+			  			<div class="alert alert-success">
+    						<strong class='submit-message'>Success! Your recipe has been submitted!</strong> 
+  						</div>
 					</form>
 			</div>		
 	</main>
@@ -74,10 +74,11 @@
 			<a href="https://www.facebook.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/facebook_small_black.png"></a>
 			<a href="https://instagram.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/instagram_small_black.png"></a>
 			<a href="https://www.pinterest.com/" target="_blank"><img class= "sociallogos-small" src="images/social_icons/25px/pinterest_small_black.png"></a>
-			<a href="#"><img class= "sociallogos-small" src="images/social_icons/25px/email_small_black.png"></a>
+			<button class="send-link"><a href="mailto:daisymaldonado0@gmail.com"><img class= "sociallogos-small" src="images/social_icons/25px/email_small_black.png"></a></button>
 		</div>
 	</footer>
 	<script src="js/jquery-1.11.3.js"></script>
 	<script src="js/bootstrap.js"></script>
+	<script type="js/recipe-form.js"></script>
 </body>
 </html>
