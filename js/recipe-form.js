@@ -9,16 +9,16 @@
 //  		alert("Thank you! Your recipe has been submitted.");
 // };
 
-$(function (){
+$(function(){
 
 	$('.recipe-form').submit(function(event) {
 		event.preventDefault();
+		console.log('form!');
 
-		console.log('submitted form!');
-
-		$('.btn btn-default').click() {
-			
+		$('#submit-button').click(function() {
+		console.log('button was clicked!');
+		$('.alert-success').show();
 		}
 
-	})
-})
+	});
+});

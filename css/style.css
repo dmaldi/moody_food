@@ -117,7 +117,7 @@ label {
 	border: none;
 	background-color: transparent;
 }
-.submit-message {
+.alert-success {
 	display: none;
 }
 }
